@@ -1,0 +1,23 @@
+
+div {
+	font-size: 30px;
+	padding: 10px 10px;
+	border: 1px solid;
+	margin: 20px 100px;
+}
+
+input::placeholder {
+	color: red;
+	opacity: 1;
+}
+
+textarea {
+	resize: both;
+	width: 200px;
+	height: 100px;
+}
+
+textarea::placeholder {
+	color: red;
+}
+
