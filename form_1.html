@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form 1</title>
+		<link rel="stylesheet" href="form_1.css">
+	</head>
+	<body>
+	<div>
+	<form action="" method="GET">
+	<input type="text"><br><br>
+	<input type="checkbox">
+	<input type="checkbox" checked><br>
+	
+	<input type="radio" name="radio"> <br>
+	<input type="radio" name="radio"><br>
+	<input type="checkbox" id="checkbox1">
+<label for="checkbox">Я привязан к чекбоксу с id checkbox.</label>
+<br>
+<label><input type="checkbox"> метка</label>
+	
+	<input type="file">
+	<input type="search">
+	<input type="submit">
+	<br><br>
+	<textarea placeholder="Описание"></textarea><br>
+	
+	<input type="text" placeholder="Введите имя"><br>
+	
+	<select>
+	<option>Москва - столица России</option>
+	<option selected>Минск</option>
+	<option>Киев</option>
+	<option>Лондон</option>
+	</select>
+	
+	<input type="submit">
+	
+	<form>
+	<fieldset>
+		<legend>Данные покупателя</legend>
+		<input type="text">
+	</fieldset>
+	<fieldset>
+		<legend>Данные продавца</legend>
+		<input type="text">
+	</fieldset>
+</form>
+</form>
+<br>
+	<form action="" method="GET">
+	<input name="user" value="<?php if(isset($_REQUEST['user'])) echo $_REQUEST['user']; ?>">
+	<input type="submit">
+</form>
+
+</div>
+
+
+
+	<!--  komment -->
+
+	</body>
+</html>
